@@ -8,7 +8,7 @@ A revolutionary web framework designed for truly nationalistic web apps. Since d
 
 To include rQuery, you need to add this line in the head of your HTML:
 
-```
+```html
 <script src="//cdn.razorpay.com/rquery.js"></script>
 ```
 
@@ -18,13 +18,13 @@ And that's it! You are now all equipped to launch the next bestselling, GMV brag
 
 To start writing in ₹Query, you need a code block like this:
 
-```
+```html
 <script type="rupeescript"></script>
 ```
 
 Now go ahead and write your heart out:
 
-```
+```html
 <script type="rupeescript">
   ₹('.element').click(function(){
     console.log('Mujhko bhi to lift karade');
@@ -40,7 +40,7 @@ While all methods of jQuery are available in ₹Query too, we are proud to annou
 
 Have you ever wanted to remove an element from all your customers devices, no matter how many have it? `demonetize` method enables this:
 
-```
+```javascript
 /**
  * To demonetize an element
  */
@@ -56,7 +56,7 @@ Have you ever wanted to remove an element from all your customers devices, no ma
 
 India is land of vibrant culture. Our art forms are varied and finally here's a framework that does justice to it. Introducing Indian animations:
 
-```
+```javascript
 ₹('.element-selector').bhangra();
 ₹('.element-selector').bharatnatyam();
 ```
